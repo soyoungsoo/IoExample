@@ -26,7 +26,7 @@ public class FileImpl implements FileIO {
 	private BufferedReader br = null;
 
 	int length = 0;
-
+ 
 	public FileImpl(HttpServletResponse response) {
 		this.response = response;
 
